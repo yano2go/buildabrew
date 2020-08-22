@@ -1,6 +1,5 @@
 require('dotenv').config()
 const PORT = 3000;
-// dependencies
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
@@ -10,7 +9,7 @@ const mongoURI = process.env.APILINK;
 
 
 
-// middleware
+
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: false }));
 app.set("view engine", "jsx");
@@ -28,7 +27,7 @@ mongoose.connection.once("open", () => {
 const brewMaster = require('./controllers/brew.js');
 app.use("/brew", brewMaster);
 
-// listen
+
 app.listen(PORT, ()=>{
   console.log('nodemon if you crash again i will hunt you down and pkill you ' + PORT);
 })

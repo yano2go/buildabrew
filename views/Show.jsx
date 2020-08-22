@@ -7,7 +7,12 @@ class Show extends React.Component {
         return (
             <div>
                 <h1>Build Show Page</h1>
-                <p>The specs of your build are {Brand}, {batchSize}, {Material}, {Price}, {equipmentType} </p>
+                <p>The specs of your build are</p> 
+                <p>{Brand}</p>,
+                <p> {batchSize}</p>, 
+                <p> {Material}</p>, 
+                <p>{Price}</p>, 
+                <p>{equipmentType} </p>
             </div>
         )
     }

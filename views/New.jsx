@@ -5,12 +5,14 @@ class New extends React.Component {
          <div>
            <h1>enter build equipment here</h1>
            <form action="/brew" method="POST">
-             Brand: <input type="text" name="Brand" />
+             brand: <input type="text" name="brand" />
              <br />
-             batchSize: <input type="text" name="Batch size" />
+             batchSize: <input type="text" name="batchSize" />
              <br />
-             Material: <input type= "text" name= "Material"/>
-             Price: <input type= "text" name="price" />
+             material: <input type= "text" name= "material"/>
+             price: <input type= "text" name="price" />
+             equipmentType: <input type= "text" name= "equipmentType" />
+             <br />
              <input type="submit" name="" value="add too build" />
              
            </form>

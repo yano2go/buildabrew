@@ -15,13 +15,14 @@ class Index extends React.Component {
                         brew.map((Brew)=>{
                             return (
                                 <li>
-                                    <a href={`/brew/${Brew._id}`}></a>
-                                    Brand: {Brew.Brand}<br />
+                                    <a href={`brew/${Brew._id}`}></a>
+                                    brand: {Brew.brand}<br />
                                     batchSize: {Brew.batchSize}<br />
-                                    Material: {Brew.Material}<br />
-                                    Price: {Brew.Price}<br />
+                                    material: {Brew.material}<br />
+                                    price: {Brew.price}<br />
+                                    equipmentType: {Brew.equipmentType}<br/>
 
-                                    <form action={`/brew/${brew._id}?_method=DELETE`} method="POST">
+                                    <form action={`/brew/${Brew._id}?_method=DELETE`} method="POST">
                                         <input type="submit" value="delete"/>
                                     </form>
                                 </li>
