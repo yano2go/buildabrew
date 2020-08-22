@@ -24,7 +24,8 @@ class Index extends React.Component {
 
                                     <form action={`/brew/${Brew._id}?_method=DELETE`} method="POST">
                                         <input type="submit" value="delete"/>
-                                    </form>
+                                    
+                                    </form> 
                                 </li>
                             )
                         })
