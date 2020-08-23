@@ -1,7 +1,9 @@
 const React = require("react");
+const Default = require('./Default');
 class New extends React.Component {
      render() {
        return (
+        <Default>
          <div>
            <h1>enter build equipment here</h1>
            <form action="/brew" method="POST">
@@ -17,6 +19,7 @@ class New extends React.Component {
              
            </form>
          </div>
+         </Default>
        );
      }
    }

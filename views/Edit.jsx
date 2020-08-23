@@ -1,9 +1,11 @@
 const React = require("react");
+const Default = require("./Default");
 
 class Edit extends React.Component {
   render() {
     const { _id, brand, batchSize, material, price, equipmentType } = this.props.brew;
     return (
+      <Default>
       <div>
         <h1>Edit Page</h1>
         <form action={`/brew/${_id}?_method=PUT`} method="POST">
@@ -18,6 +20,7 @@ class Edit extends React.Component {
           <input type="submit" name="" value="Submit Changes" />
         </form>
       </div>
+      </Default>
     );
   }
 }

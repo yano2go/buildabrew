@@ -1,9 +1,11 @@
 const React = require('react');
+const Default = require('./Default');
 
 class Index extends React.Component {
     render() {
         const { brew } = this.props
         return(
+            <Default>
             
             <div>
                 <h1>welcome to build a brew</h1>
@@ -11,7 +13,8 @@ class Index extends React.Component {
                     <a href="/brew/new">make your first build</a>
 
                 </nav>
-                    
+                <h3>test</h3>
+
                 <ul>
                     {
                         brew.map((Brew)=>{
@@ -35,6 +38,7 @@ class Index extends React.Component {
                     }
                 </ul>
             </div>
+            </Default>
            
         )
     }
