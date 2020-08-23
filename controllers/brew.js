@@ -31,6 +31,7 @@ router.get('/new', (req, res)=>{
      { new: true },
      (err, updatedModel) => {
        res.redirect("/brew");
+       console.log("update triggered")
      }
    );
  });
@@ -49,7 +50,7 @@ router.get('/new', (req, res)=>{
     
       Brew.findById(req.params.id, (err, foundBrew) => {
        
-        res.render("brew", {
+        res.render("Edit", {
           brew: foundBrew,
         });
       });

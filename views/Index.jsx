@@ -9,7 +9,9 @@ class Index extends React.Component {
                 <h1>welcome to build a brew</h1>
                 <nav>
                     <a href="/brew/new">make your first build</a>
+
                 </nav>
+                    
                 <ul>
                     {
                         brew.map((Brew)=>{
@@ -17,14 +19,15 @@ class Index extends React.Component {
                                 <li>
                                     <a href={`brew/${Brew._id}`}></a>
                                     brand: {Brew.brand}<br />
-                                    batchSize: {Brew.batchSize}<br />
+                                    batch size: {Brew.batchSize}<br />
                                     material: {Brew.material}<br />
                                     price: {Brew.price}<br />
-                                    equipmentType: {Brew.equipmentType}<br/>
+                                    equipment type: {Brew.equipmentType}<br/>
 
                                     <form action={`/brew/${Brew._id}?_method=DELETE`} method="POST">
                                         <input type="submit" value="delete"/>
-                                    
+                                        <a href={`/brew/${Brew._id}/edit`}>Edit</a>
+                                        <a href={`/brew/${Brew._id}`}>Show</a>
                                     </form> 
                                 </li>
                             )

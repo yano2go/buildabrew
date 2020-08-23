@@ -3,11 +3,11 @@ const Schema = mongoose.Schema;
 
 
 const brewSchema = new Schema({
-    brand: { type: String, required: true },
-    batchSize: { type: String, required: true },
-    material: {type: String, required: true },
-    price: {type: String, required: true},
-    equipmentType: {type: String, required: true}
+    brand: { type: String},
+    batchSize: { type: String},
+    material: {type: String},
+    price: {type: String},
+    equipmentType: {type: String}
 }, { timestamps: true });
 
 
