@@ -5,7 +5,7 @@ class Show extends React.Component {
     render() {
             
         
-        const { brand, batchSize, material, price, equipmentType } = this.props.brew;
+        const {brand, batchSize, material, price, equipmentType } = this.props.brew;
         return (
             <Default>
             <div>

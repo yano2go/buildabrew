@@ -20,7 +20,7 @@ class Kettles extends React.Component {
              <br />
              material: <input type= "text" name= "material"/>
              price: <input type= "text" name="price" />
-             equipmentType: <input type= "text" name= "equipmentType" />
+             brewKettleType: <input type= "text" name= "brewKettleType" />
              <br />
              <input type="submit" name="" value="add to build" />
              

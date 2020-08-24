@@ -18,7 +18,7 @@ class MashTuns extends React.Component {
              <br />
              material: <input type= "text" name= "material"/>
              price: <input type= "text" name="price" />
-             equipmentType: <input type= "text" name= "equipmentType" />
+             mashTunType: <input type= "text" name= "mashTunType" />
              <br />
              <input type="submit" name="" value="add to build" />
              

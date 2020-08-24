@@ -21,4 +21,12 @@ router.get('/fermenters', (req, res)=>{
 
 });
 
+router.post("/", (req, res) => {
+     Description.create(req.body, (error, createdEquipment) => {
+       
+       res.redirect("/brew");
+     });
+   });
+
+
 module.exports = router;

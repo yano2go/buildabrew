@@ -7,7 +7,12 @@ const descriptionSchema = new Schema({
     batchSize: { type: String},
     material: {type: String},
     price: {type: Number},
-    equipmentType: {type: String}
+    fermenterType: {type: String},
+    brewKettleType: {type: String},
+    mashTunType: {type: String},
+    accessoryType: {type: String},
+    additionalAccessory:{type: String},
+    thirdAccessory:{type: String}
 }, { timestamps: true });
 
 

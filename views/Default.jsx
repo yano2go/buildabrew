@@ -14,15 +14,18 @@ class Default extends React.Component {
                     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
                     <title> Yank Bootstrap Example</title>
                 </head>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="http://localhost:3000/brew">Home</a>
+  <a class="navbar-brand" href="http://localhost:3000/brew/new">Build Your First Brew</a>
+  <a class="navbar-brand" href="http://localhost:3000/learn/kettles">Kettles</a>
+  <a class="navbar-brand" href="http://localhost:3000/learn/mashtuns">Mash Tuns</a>
+  <a class="navbar-brand" href="http://localhost:3000/learn/fermenters">fermenters</a>
+  <a class="navbar-brand" href="http://localhost:3000/learn/accessories">Accesssories</a>
+ 
+    
+</nav>
                 <body> 
-                    <nav>
-                        <a href="/brew/new">make your first build   </a>
-                    <a href="/learn/mashtuns">Now learn about mash tuns </a>
-                <a href="/learn/kettles">Now learn about Fermenters  </a>
-                <a href="/learn/accessories">check out these Accessories    </a>
-                <a href="/learn/fermenters">Now learn about Fermenters  </a>
-                        
-                    </nav>
+                    
                     <img src= "https://www.cohoferry.com/img/pages/FWBF-banner.jpg"></img>
                     {this.props.children}
                     <footer>

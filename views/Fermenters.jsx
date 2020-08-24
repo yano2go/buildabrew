@@ -17,7 +17,7 @@ class Fermenters extends React.Component {
              <br />
              material: <input type= "text" name= "material"/>
              price: <input type= "text" name="price" />
-             equipmentType: <input type= "text" name= "equipmentType" />
+             fermenterType: <input type= "text" name= "fermenterType" />
              <br />
              <input type="submit" name="" value="add to build" />
              
