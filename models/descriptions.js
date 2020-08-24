@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 
-const brewSchema = new Schema({
+const descriptionSchema = new Schema({
     brand: { type: String},
     batchSize: { type: String},
     material: {type: String},
@@ -11,6 +11,6 @@ const brewSchema = new Schema({
 }, { timestamps: true });
 
 
-const Brew = mongoose.model('Brew', brewSchema);
+const Description = mongoose.model('Description', descriptionSchema);
 
-module.exports = Brew;  
+module.exports = Description; 

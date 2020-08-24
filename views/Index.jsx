@@ -10,10 +10,10 @@ class Index extends React.Component {
             <div>
                 <h1>welcome to build a brew</h1>
                 <nav>
-                    <a href="/brew/new">make your first build</a>
+                    
 
                 </nav>
-                <h3>test</h3>
+                <h3>Lets build your first brew! </h3>
 
                 <ul>
                     {

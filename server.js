@@ -27,6 +27,8 @@ mongoose.connection.once("open", () => {
 const brewMaster = require('./controllers/brew.js');
 app.use("/brew", brewMaster);
 
+const learnToBrew = require('./controllers/descriptions.js');
+app.use("/learn", learnToBrew);
 
 app.listen(PORT, ()=>{
   console.log('nodemon if you crash again i will hunt you down and pkill you ' + PORT);

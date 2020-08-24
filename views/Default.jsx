@@ -16,13 +16,17 @@ class Default extends React.Component {
                 </head>
                 <body> 
                     <nav>
-                        <li><a href="/Index">Index</a></li>
-                        <li><a href="/New">Create New</a></li>
+                        <a href="/brew/new">make your first build   </a>
+                    <a href="/learn/mashtuns">Now learn about mash tuns </a>
+                <a href="/learn/kettles">Now learn about Fermenters  </a>
+                <a href="/learn/accessories">check out these Accessories    </a>
+                <a href="/learn/fermenters">Now learn about Fermenters  </a>
                         
                     </nav>
+                    <img src= "https://www.cohoferry.com/img/pages/FWBF-banner.jpg"></img>
                     {this.props.children}
                     <footer>
-                        <h4>Created By Yank</h4>
+                        <h4>Created By Yankable designs</h4>
                     </footer>
                 </body>
             </html>
