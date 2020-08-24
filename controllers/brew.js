@@ -3,9 +3,9 @@ const router = express.Router();
 const Brew = require('../models/brew.js')
 //Index
 router.get('/', (req,res)=>{ 
-     Brew.find({}, (error, allBrews) =>{
+     Brew.find({}, (error, totalBrews) =>{
           res.render("Index", {
-               brew: allBrews
+               brew: totalBrews
           });
      });
 });
@@ -29,7 +29,7 @@ router.get('/new', (req, res)=>{
      req.params.id,
      req.body,
      { new: true },
-     (err, updatedModel) => {
+     (err, updatedBrew) => {
        res.redirect("/brew");
        console.log("update triggered")
      }
@@ -38,7 +38,7 @@ router.get('/new', (req, res)=>{
 
    // Create
    router.post("/", (req, res) => {
-    Brew.create(req.body, (error, createdBrew) => {
+    Brew.create(req.body, (error, madeBrew) => {
       
       res.redirect("/brew");
     });
@@ -48,10 +48,10 @@ router.get('/new', (req, res)=>{
 
  router.get("/:id/edit", (req, res) => {
     
-      Brew.findById(req.params.id, (err, foundBrew) => {
+      Brew.findById(req.params.id, (err, gotBrew) => {
        
         res.render("Edit", {
-          brew: foundBrew,
+          brew: gotBrew,
         });
       });
     });
@@ -59,10 +59,10 @@ router.get('/new', (req, res)=>{
 //    //SHOW
  router.get("/:id", (req, res) => {
      
-      Brew.findById(req.params.id, (error, foundBrew) => {
+      Brew.findById(req.params.id, (error, gotBrew) => {
        
         res.render("Show", {
-          brew: foundBrew,
+          brew: gotBrew,
         });
       });
     });

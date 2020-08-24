@@ -13,9 +13,14 @@ class New extends React.Component {
              <br />
              material: <input type= "text" name= "material"/>
              price: <input type= "text" name="price" />
-             equipmentType: <input type= "text" name= "equipmentType" />
+             fermenterType: <input type= "text" name= "fermenterType" />
+             brewKettleType: <input type= "text" name= "brewKettleType" />
+             mashTunType: <input type= "text" name= "mashTunType" />
+             accessoryType: <input type= "text" name= "accessoryType" />
+             additionalAccessory: <input type= "text" name= "additionalAccessory" />
+             thirdAccessory: <input type= "text" name="thirdAccessory" />
              <br />
-             <input type="submit" name="" value="add too build" />
+             <input type="submit" name="built" value="add to build" />
              
            </form>
          </div>

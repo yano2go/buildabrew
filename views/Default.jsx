@@ -19,14 +19,14 @@ class Default extends React.Component {
   <a class="navbar-brand" href="http://localhost:3000/brew/new">Build Your First Brew</a>
   <a class="navbar-brand" href="http://localhost:3000/learn/kettles">Kettles</a>
   <a class="navbar-brand" href="http://localhost:3000/learn/mashtuns">Mash Tuns</a>
-  <a class="navbar-brand" href="http://localhost:3000/learn/fermenters">fermenters</a>
+  <a class="navbar-brand" href="http://localhost:3000/learn/fermenters">Fermenters</a>
   <a class="navbar-brand" href="http://localhost:3000/learn/accessories">Accesssories</a>
  
     
 </nav>
                 <body> 
                     
-                    <img src= "https://www.cohoferry.com/img/pages/FWBF-banner.jpg"></img>
+                    <img src="https://www.cohoferry.com/img/pages/FWBF-banner.jpg" class="img-fluid" alt="Responsive image"></img>
                     {this.props.children}
                     <footer>
                         <h4>Created By Yankable designs</h4>
