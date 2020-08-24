@@ -2,6 +2,8 @@ const express = require('express');
 const router = express.Router();
 const Description = require('../models/descriptions.js')
 
+
+
 router.get('/kettles', (req, res)=>{
      res.render('Kettles');
 
@@ -27,6 +29,12 @@ router.post("/", (req, res) => {
        res.redirect("/brew");
      });
    });
+   
+   
+   router.get('/brewingprocess', (req, res)=>{
+     res.render('BrewingProcess');
 
+});
+   
 
 module.exports = router;

@@ -12,15 +12,22 @@ class Default extends React.Component {
                     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
                     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
                     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-                    <title> Yank Bootstrap Example</title>
+                    <title>Yanks Home Brew Guide</title>
                 </head>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="http://localhost:3000/brew">Home</a>
-  <a class="navbar-brand" href="http://localhost:3000/brew/new">Build Your First Brew</a>
-  <a class="navbar-brand" href="http://localhost:3000/learn/kettles">Kettles</a>
-  <a class="navbar-brand" href="http://localhost:3000/learn/mashtuns">Mash Tuns</a>
-  <a class="navbar-brand" href="http://localhost:3000/learn/fermenters">Fermenters</a>
-  <a class="navbar-brand" href="http://localhost:3000/learn/accessories">Accesssories</a>
+  <a class="navbar-brand" href="/brew/new">Build Your First System</a>
+  <a class="navbar-brand" href="/learn/kettles">Kettles</a>
+  <a class="navbar-brand" href="/learn/mashtuns">Mash Tuns</a>
+  <a class="navbar-brand" href="/learn/fermenters">Fermenters</a>
+  <a class="navbar-brand" href="/learn/accessories">Accesssories</a>
+  <a class="navbar-brand" href="/learn/brewingprocess">Brewing Process</a>
+  <a class="navbar-brand" href="/learn/blog">Blog</a>
+  
+
+
+
+  
  
     
 </nav>
