@@ -13,7 +13,7 @@ const bcrypt = require('bcrypt');
 
 
 
-app.use(express.static("public"));
+app.use(express.static("/public"));
 app.use(express.urlencoded({ extended: false }));
 app.set("view engine", "jsx");
 app.engine("jsx", require("express-react-views").createEngine());
