@@ -11,7 +11,7 @@ const isAuthenticated = (req, res, next) => {
 };
 
 
-router.get('/', isAuthenticated, (req,res)=>{ 
+router.get('/brew', isAuthenticated, (req,res)=>{ 
      Brew.find({}, (error, totalBrews) =>{
           res.render("Index", {
                brew: totalBrews,
@@ -47,7 +47,7 @@ router.get('/new', isAuthenticated, (req, res)=>{
  });
 
    // Create
-   router.post("/", (req, res) => {
+   router.post("/brew", (req, res) => {
     Brew.create(req.body, (error, madeBrew) => {
       
       res.redirect("/brew");
