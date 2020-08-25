@@ -6,8 +6,12 @@ class Accessories extends React.Component {
         return(
             <Default>
             
+
             <div>
                 <h1>Additional Must Haves!</h1>
+
+                For brewing beer you will need additional products to successfully brew. Mandatory items include bottles, caps, a capping device, 5 ounces of sugar, defoamer dropper, thermometer irish moss and most importantly, sanitizer. <br />
+                Non mandatory but highly reccomended items include, a wort chiller, a stiring device, an additional brew bucket, a brush to clean bottles, fermentation chamber, and a regulator for the chamber.  
                 <div>
                 <h1>enter build equipment here</h1>
            <form action="/brew" method="POST">

@@ -4,6 +4,7 @@ class Default extends React.Component {
         return (
             <html>
                 <head>
+                    
                     <meta charset="utf-8"></meta>  
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
  
@@ -15,7 +16,7 @@ class Default extends React.Component {
                     <title>Yanks Home Brew Guide</title>
                 </head>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="http://localhost:3000/brew">Home</a>
+                <a class="navbar-brand" href="/brew">Home</a>
   <a class="navbar-brand" href="/brew/new">Build Your First System</a>
   <a class="navbar-brand" href="/learn/kettles">Kettles</a>
   <a class="navbar-brand" href="/learn/mashtuns">Mash Tuns</a>
@@ -32,8 +33,9 @@ class Default extends React.Component {
     
 </nav>
                 <body> 
-                    
+                    <div id ="mainpic">
                     <img src="https://www.cohoferry.com/img/pages/FWBF-banner.jpg" class="img-fluid" alt="Responsive image"></img>
+                    </div>
                     {this.props.children}
                     <footer>
                         <h4>Created By Yankable designs</h4>

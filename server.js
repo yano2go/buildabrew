@@ -1,14 +1,14 @@
 require('dotenv').config()
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const methodOverride = require("method-override"); 
 const mongoURI = process.env.APILINK;
-const userController = require('./controllers/userController.js'); //Users Controller
-const session = require('express-session'); //Session Middlewhere
-const User = require('./models/users.js'); // User Model
-const bcrypt = require('bcrypt'); //bcrypt to encrypt passwords
+const userController = require('./controllers/userController.js');
+const session = require('express-session'); 
+const User = require('./models/users.js'); 
+const bcrypt = require('bcrypt'); 
 
 
 
@@ -29,13 +29,12 @@ app.use(
 
 
 
-
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.connection.once("open", () => {
   console.log("connected to mongo");
 });
 const brewMaster = require('./controllers/brew.js');
-app.use("/brew", brewMaster);
+app.use("/", brewMaster);
 
 const learnToBrew = require('./controllers/descriptions.js');
 app.use("/learn", learnToBrew);
