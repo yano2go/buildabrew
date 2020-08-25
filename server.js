@@ -4,11 +4,11 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const methodOverride = require("method-override"); 
-const mongoURI = process.env.APILINK;
-const userController = require('./controllers/userController.js'); //Users Controller
-const session = require('express-session'); //Session Middlewhere
-const User = require('./models/users.js'); // User Model
-const bcrypt = require('bcrypt'); //bcrypt to encrypt passwords
+const mongoURI = 'process.env.APILINK';
+const userController = require('./controllers/userController.js'); 
+const session = require('express-session'); 
+const User = require('./models/users.js'); 
+const bcrypt = require('bcrypt'); 
 
 
 
