@@ -19,7 +19,7 @@ router.get('/accessories', isAuthenticated, (req, res)=>{
 
 });
 router.get('/mashtuns', isAuthenticated, (req, res)=>{
-     res.render('Mashtuns');
+     res.render('MashTuns');
 
 });
 
