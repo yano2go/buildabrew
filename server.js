@@ -34,7 +34,7 @@ mongoose.connection.once("open", () => {
   console.log("connected to mongo");
 });
 const brewMaster = require('./controllers/brew.js');
-app.use("/brew", brewMaster);
+app.use("/", brewMaster);
 
 const learnToBrew = require('./controllers/descriptions.js');
 app.use("/learn", learnToBrew);
