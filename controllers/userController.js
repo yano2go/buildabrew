@@ -18,8 +18,9 @@ users.post('/', (req, res) => {
     console.log(req.body);
 
     User.create(req.body, (err, createdUser) => {
-        console.log(createdUser);
-        res.redirect('/brew');
+        if (createdUser)
+        {res.redirect('/brew');}
+        else {res.sendStatus(500)} 
     });
 });
 module.exports = users;
