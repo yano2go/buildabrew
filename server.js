@@ -72,7 +72,7 @@ app.post('/sessions/', (req, res) => {
           if (bcrypt.compareSync(req.body.password, foundUser.password)) {
               
               req.session.currentUser = foundUser.username;
-              res.redirect('/brew/');
+              res.redirect('/');
           } else {
               
               res.send('WRONG PASSWORD');
