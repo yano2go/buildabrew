@@ -2,28 +2,38 @@ const express = require('express');
 const router = express.Router();
 const Description = require('../models/descriptions.js')
 
-
-
-router.get('/kettles', (req, res)=>{
+const isAuthenticated = (req, res, next) => {
+     if (req.session.currentUser) {
+         return next();
+     } else {
+         res.redirect('/sessions/new');
+     }
+ };
+router.get('/kettles', isAuthenticated, (req, res)=>{
      res.render('Kettles');
 
 });
 
-router.get('/accessories', (req, res)=>{
+router.get('/accessories', isAuthenticated, (req, res)=>{
      res.render('Accessories');
 
 });
-router.get('/mashtuns', (req, res)=>{
+router.get('/mashtuns', isAuthenticated, (req, res)=>{
      res.render('Mashtuns');
 
 });
 
-router.get('/fermenters', (req, res)=>{
+router.get('/fermenters', isAuthenticated, (req, res)=>{
      res.render('Fermenters');
 
 });
 
-router.post("/", (req, res) => {
+router.get('/blog', isAuthenticated, (req, res)=>{
+     res.render('Blog');
+
+});
+
+router.post("/", isAuthenticated, (req, res) => {
      Description.create(req.body, (error, createdEquipment) => {
        
        res.redirect("/brew");
@@ -31,7 +41,7 @@ router.post("/", (req, res) => {
    });
    
    
-   router.get('/brewingprocess', (req, res)=>{
+   router.get('/brewingprocess', isAuthenticated, (req, res)=>{
      res.render('BrewingProcess');
 
 });

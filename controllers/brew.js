@@ -2,21 +2,31 @@ const express = require('express');
 const router = express.Router();
 const Brew = require('../models/brew.js')
 //Index
-router.get('/', (req,res)=>{ 
+const isAuthenticated = (req, res, next) => {
+    if (req.session.currentUser) {
+        return next();
+    } else {
+        res.redirect('/sessions/new');
+    }
+};
+
+
+router.get('/', isAuthenticated, (req,res)=>{ 
      Brew.find({}, (error, totalBrews) =>{
           res.render("Index", {
-               brew: totalBrews
+               brew: totalBrews,
+               username: req.session.currentUser,
           });
      });
 });
 
-router.get('/new', (req, res)=>{
+router.get('/new', isAuthenticated, (req, res)=>{
      res.render('New');
 
 });
 
 // // Delete
- router.delete("/:id", (req, res) => {
+ router.delete("/:id", isAuthenticated, (req, res) => {
 
    Brew.findByIdAndRemove(req.params.id, (err, brew) => {
      res.redirect("/brew");
@@ -24,7 +34,7 @@ router.get('/new', (req, res)=>{
  });
 
  // Update
- router.put("/:id", (req, res) => {
+ router.put("/:id", isAuthenticated,(req, res) => {
    Brew.findByIdAndUpdate(
      req.params.id,
      req.body,
@@ -46,7 +56,7 @@ router.get('/new', (req, res)=>{
   
 // // edit
 
- router.get("/:id/edit", (req, res) => {
+ router.get("/:id/edit", isAuthenticated, (req, res) => {
     
       Brew.findById(req.params.id, (err, gotBrew) => {
        
@@ -57,7 +67,7 @@ router.get('/new', (req, res)=>{
     });
 
 //    //SHOW
- router.get("/:id", (req, res) => {
+ router.get("/:id", isAuthenticated, (req, res) => {
      
       Brew.findById(req.params.id, (error, gotBrew) => {
        
