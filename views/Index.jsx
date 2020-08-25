@@ -33,10 +33,10 @@ class Index extends React.Component {
                                     additionalAccessory: {Brew.additionalAccessory} <br/>
                                     thirdAccessory: {Brew.thirdAccessory} <br/>
 
-                                    <form action={`/brew/${Brew._id}?_method=DELETE`} method="POST">
+                                    <form action={`/${Brew._id}?_method=DELETE`} method="POST">
                                         <input type="submit" value="delete"/>
-                                        <a href={`/brew/${Brew._id}/edit`}>Edit</a>
-                                        <a href={`/brew/${Brew._id}`}>Show</a>
+                                        <a href={`/${Brew._id}/edit`}>Edit</a>
+                                        <a href={`/${Brew._id}`}>Show</a>
                                     </form> 
                                 </li>
                             )

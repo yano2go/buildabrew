@@ -36,7 +36,7 @@ Some of the best features of all the previous fermenters can be replicated in a 
 
 </h5>
             <h1>enter build equipment here</h1>
-           <form action="/brew" method="POST">
+           <form action="/" method="POST">
              brand: <input type="text" name="brand" />
              <br />
              batchSize: <input type="text" name="batchSize" />

@@ -6,7 +6,7 @@ class New extends React.Component {
         <Default>
          <div>
            <h1>enter build equipment here</h1>
-           <form action="/brew" method="POST">
+           <form action="/" method="POST">
              brand: <input type="text" name="brand" />
              <br />
              batchSize: <input type="text" name="batchSize" />

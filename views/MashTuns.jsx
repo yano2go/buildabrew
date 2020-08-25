@@ -37,7 +37,7 @@ If you have a controlled heat source, you can also make a mash tun from any pot 
 
 
           <h1>enter build equipment here</h1>
-          <form action="/brew" method="POST">
+          <form action="/" method="POST">
             brand: <input type="text" name="brand" />
             <br />
              batchSize: <input type="text" name="batchSize" />

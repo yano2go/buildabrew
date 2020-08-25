@@ -60,7 +60,7 @@ The final essential feature of the best brew kettles is built-in volume markings
 Brew kettles generally have volume indicators etched into the metal, in both gallons and liters. Quart markings, while less common, are nice if your recipes are built around that unit.</h5>
                 <h1>enter build equipment here</h1>
 
-           <form action="/brew" method="POST">
+           <form action="/" method="POST">
              brand: <input type="text" name="brand" />
              <br />
              batchSize: <input type="text" name="batchSize" />

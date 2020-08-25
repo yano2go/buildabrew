@@ -8,7 +8,7 @@ class Edit extends React.Component {
       <Default>
       <div>
         <h1>Edit Page</h1>
-        <form action={`/brew/${_id}?_method=PUT`} method="POST">
+        <form action={`/${_id}?_method=PUT`} method="POST">
           
           brand: <input type="text" name="brand" defaultValue={brand} /> <br />
           <label for  ="batchSize"> batch size</label>

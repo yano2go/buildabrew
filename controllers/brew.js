@@ -29,7 +29,7 @@ router.get('/new', isAuthenticated, (req, res)=>{
  router.delete("/:id", isAuthenticated, (req, res) => {
 
    Brew.findByIdAndRemove(req.params.id, (err, brew) => {
-     res.redirect("/brew");
+     res.redirect("/");
    });
  });
 
@@ -40,7 +40,7 @@ router.get('/new', isAuthenticated, (req, res)=>{
      req.body,
      { new: true },
      (err, updatedBrew) => {
-       res.redirect("/brew");
+       res.redirect("/");
        console.log("update triggered")
      }
    );
@@ -50,7 +50,7 @@ router.get('/new', isAuthenticated, (req, res)=>{
    router.post("/", (req, res) => {
     Brew.create(req.body, (error, madeBrew) => {
       
-      res.redirect("/brew");
+      res.redirect("/");
     });
   });
   

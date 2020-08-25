@@ -17,8 +17,8 @@ class Default extends React.Component {
                     <title>Yanks Home Brew Guide</title>
                 </head>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="/brew">Home</a>
-  <a class="navbar-brand" href="/brew/new">Build Your First System</a>
+                <a class="navbar-brand" href="/">Home</a>
+  <a class="navbar-brand" href="/new">Build Your First System</a>
   <a class="navbar-brand" href="/learn/kettles">Kettles</a>
   <a class="navbar-brand" href="/learn/mashtuns">Mash Tuns</a>
   <a class="navbar-brand" href="/learn/fermenters">Fermenters</a>

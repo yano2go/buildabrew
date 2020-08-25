@@ -21,7 +21,7 @@ class Show extends React.Component {
                 <h3>{accessoryType}</h3>
                 <h3>{additionalAccessory}</h3>
                 <h3>{thirdAccessory}</h3>
-                <a href="/brew">go back to your build</a>
+                <a href="/">go back to your build</a>
             </div>
             </Default>
         )

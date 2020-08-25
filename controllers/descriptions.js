@@ -36,7 +36,7 @@ router.get('/blog', isAuthenticated, (req, res)=>{
 router.post("/", isAuthenticated, (req, res) => {
      Description.create(req.body, (error, createdEquipment) => {
        
-       res.redirect("/brew");
+       res.redirect("/");
      });
    });
    

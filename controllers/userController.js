@@ -19,7 +19,7 @@ users.post('/', (req, res) => {
 
     User.create(req.body, (err, createdUser) => {
         if (createdUser)
-        {res.redirect('/brew');}
+        {res.redirect('/');}
         else {res.sendStatus(500)} 
     });
 });
