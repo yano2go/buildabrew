@@ -9,16 +9,16 @@ class New extends React.Component {
            <form action="/" method="POST">
              brand: <input type="text" name="brand" />
              <br />
-             batchSize: <input type="text" name="batchSize" />
+             batch size: <input type="text" name="batchSize" />
              <br />
-             material: <input type= "text" name= "material"/>
-             price: <input type= "text" name="price" />
-             fermenterType: <input type= "text" name= "fermenterType" />
-             brewKettleType: <input type= "text" name= "brewKettleType" />
-             mashTunType: <input type= "text" name= "mashTunType" />
-             accessoryType: <input type= "text" name= "accessoryType" />
-             additionalAccessory: <input type= "text" name= "additionalAccessory" />
-             thirdAccessory: <input type= "text" name="thirdAccessory" />
+             material: <input type= "text" name= "material"/> <br />
+             price: <input type= "text" name="price" /> <br />
+             fermenter type: <input type= "text" name= "fermenterType" /> <br />
+             brew kettle type: <input type= "text" name= "brewKettleType" /> <br />
+             mash tun type: <input type= "text" name= "mashTunType" /> <br />
+             accessory type: <input type= "text" name= "accessoryType" />
+             additional accessory: <input type= "text" name= "additionalAccessory" /> <br />
+             third accessory: <input type= "text" name="thirdAccessory" /> <br />
              <br />
              <input type="submit" name="built" value="add to build" />
              

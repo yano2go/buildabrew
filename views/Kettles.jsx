@@ -63,11 +63,11 @@ Brew kettles generally have volume indicators etched into the metal, in both gal
            <form action="/" method="POST">
              brand: <input type="text" name="brand" />
              <br />
-             batchSize: <input type="text" name="batchSize" />
+             batch size: <input type="text" name="batchSize" />
              <br />
              material: <input type= "text" name= "material"/>
              price: <input type= "text" name="price" />
-             brewKettleType: <input type= "text" name= "brewKettleType" />
+             brew kettle type: <input type= "text" name= "brewKettleType" />
              <br />
              <input type="submit" name="" value="add to build" />
              

@@ -25,13 +25,13 @@ class Index extends React.Component {
                                     batch size: {Brew.batchSize}<br />
                                     material: {Brew.material}<br />
                                     price: {Brew.price}<br />
-                                    fermenterType: {Brew.fermenterType}
+                                    fermenter type: {Brew.fermenterType}
                                     <br/>
-                                    brewKettleType: {Brew.brewKettleType} <br/>
-                                    mashTunType: {Brew.brewKettleType} <br/>
-                                    accessoryType: {Brew.accessoryType} <br/>
-                                    additionalAccessory: {Brew.additionalAccessory} <br/>
-                                    thirdAccessory: {Brew.thirdAccessory} <br/>
+                                    brew kettle type: {Brew.brewKettleType} <br/>
+                                    mash tun type: {Brew.brewKettleType} <br/>
+                                    accessory type: {Brew.accessoryType} <br/>
+                                    additional accessory: {Brew.additionalAccessory} <br/>
+                                    third accessory: {Brew.thirdAccessory} <br/>
 
                                     <form action={`/${Brew._id}?_method=DELETE`} method="POST">
                                         <input type="submit" value="delete"/>

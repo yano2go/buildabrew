@@ -39,11 +39,11 @@ Some of the best features of all the previous fermenters can be replicated in a 
            <form action="/" method="POST">
              brand: <input type="text" name="brand" />
              <br />
-             batchSize: <input type="text" name="batchSize" />
+             batch size: <input type="text" name="batchSize" />
              <br />
              material: <input type= "text" name= "material"/>
              price: <input type= "text" name="price" />
-             fermenterType: <input type= "text" name= "fermenterType" />
+             fermenter type: <input type= "text" name= "fermenterType" />
              <br />
              <input type="submit" name="" value="add to build" />
              

@@ -40,11 +40,13 @@ If you have a controlled heat source, you can also make a mash tun from any pot 
           <form action="/" method="POST">
             brand: <input type="text" name="brand" />
             <br />
-             batchSize: <input type="text" name="batchSize" />
+             batch size: <input type="text" name="batchSize" />
             <br />
              material: <input type="text" name="material" />
+             <br />
              price: <input type="text" name="price" />
-             mashTunType: <input type="text" name="mashTunType" />
+             <br />
+             mash tun type: <input type="text" name="mashTunType" />
             <br />
             <input type="submit" name="" value="add to build" />
 

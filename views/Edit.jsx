@@ -15,12 +15,12 @@ class Edit extends React.Component {
          <input type="text" name="batchSize" defaultValue={batchSize} /> <br />
           material: <input type="text" name="material" defaultValue={material} /> <br />
           price: <input type="text" name="price" defaultValue={price} /> <br />
-          fermenterType: <input type= "text" name="fermenterType" defaultValue={fermenterType} />
-          brewKettleType: <input type= "text" name="brewKettleType" defaultValue={brewKettleType}/>
-          mashTunType: <input type= "text" name= "mashTunType" defaultValue={mashTunType}/>
-          accessoryType: <input type= "text" name= "accessoryType" defaultValue={accessoryType} />
-          additionalAccessory: <input type= "text" name= "additionalAccessory" defaultValue={additionalAccessory}/>
-          thirdAccessory: <input type= "text" name="thirdAccessory" defaultValue={thirdAccessory} />
+          fermenter type: <input type= "text" name="fermenterType" defaultValue={fermenterType} />
+          brew kettle type: <input type= "text" name="brewKettleType" defaultValue={brewKettleType}/>
+          mash tun type: <input type= "text" name= "mashTunType" defaultValue={mashTunType}/>
+          accessory type: <input type= "text" name= "accessoryType" defaultValue={accessoryType} />
+          additional accessory: <input type= "text" name= "additionalAccessory" defaultValue={additionalAccessory}/>
+          third accessory: <input type= "text" name="thirdAccessory" defaultValue={thirdAccessory} />
           <input type="submit" name="" value="Submit Changes" />
         </form>
       </div>
