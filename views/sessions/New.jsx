@@ -5,7 +5,7 @@ class LoginUser extends React.Component {
         return (
          
             <div>
-                <h1>WELCOME TO YANKS HOMEBREW SHOP PLEASE SIGN IN</h1>
+                <h1>WELCOME TO YANKS HOMEBREW GUIDE PLEASE SIGN IN</h1>
                 <img src="https://png.pngtree.com/thumb_back/fw800/back_our/20190621/ourmid/pngtree-vector-hand-drawn-beer-drink-drink-banner-image_176756.jpg"></img>
                 <h1>Login</h1>
                 <form action="/sessions/" method="POST">
