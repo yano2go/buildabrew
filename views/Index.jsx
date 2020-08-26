@@ -13,7 +13,7 @@ class Index extends React.Component {
                     
 
                 </nav>
-                <h3>If you're looking to dive into the world of homebrewing you've come to the right place with this website you will gain the knowledge and ability to put together your first home brewery! Starts by clicking a tab that you are confused about or if you don't know where to start click the "brewing process" tab1</h3>
+                <h3>If you're looking to dive into the world of homebrewing you've come to the right place! With this website you will gain the knowledge and ability to put together your first home brewery! Start by clicking a tab that you are confused about or if you don't know where to start click the "brewing process" tab!</h3>
                 <h3>Lets build your first brew! </h3>
                 
 

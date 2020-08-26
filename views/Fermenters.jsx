@@ -8,9 +8,9 @@ class Fermenters extends React.Component {
             
             <div>
                 <h1>ITS ALIVE! The Basics of Fermentation</h1>
-                <div>
+                <div> 
                 <h6>the following information came from byo.com</h6>
-               <img id="fermex" src= "https://52brews.com/wp-content/uploads/2018/02/The-Best-Beer-Fermenters-coverimage.webp"></img>
+               <img id="fermex" src="https://52brews.com/wp-content/uploads/2018/02/The-Best-Beer-Fermenters-coverimage.webp" class="img-fluid" alt="Responsive image"></img>
                 <h5>As a homebrewer, the selection of different fermenters is pretty astounding. You can buy a fermenter for as little as $10, but a homebrewer can easily spend over $1,000 (USD) on a fermentation system. One thing to always remember for those getting into the hobby is that some homebrewers make award-winning beer using nothing more than a plastic bucket to ferment their beers. It’s all in knowing the strengths and limitations of each system and how to properly use them.<br />
                 <br />
 Bucket (Plastic or Stainless)
@@ -20,7 +20,7 @@ Most homebrewers begin with food-grade plastic buckets when they start out the h
 The downside to plastic buckets is just how much of your beer is exposed to air. This means you should not leave your beer in a bucket for long. If you keep your beer in a plastic bucket for an extended time, oxygen will diffuse into the bucket through both the lid’s seam and its walls. Four weeks in my experience would be the maximum I would ever think about keeping a beer in bucket (I’ve done it when life has gotten in my way with only minor hints of degradation), while 2–3 weeks is normally my max time, 1–2 weeks is ideal. <br />
 <br />
 Stainless steel buckets are an upgrade some homebrewers make, most notable for those who may be plastic-phobic or to lessen oxygen diffusion. If you want to step up to a stainless fermenter, a bucket would generally be more economical than a conical. Stainless buckets have the same benefits as plastic, but they do have a large air-to-beer contact area. Also, you do lose the ability to nest the buckets together if storage space is limited. Typically stainless buckets already come equipped with a spigot for easy racking. If you’re willing to spend some extra money on stainless, these are a great option. <br />
-<img id="fermentation" src="https://i.pinimg.com/originals/03/ea/77/03ea77d74d9b66fe572492f77820583f.gif"></img>
+<img id="fermentation" src="https://i.pinimg.com/originals/03/ea/77/03ea77d74d9b66fe572492f77820583f.gif" class="img-fluid" alt="Responsive image"></img>
 <br />
 Carboy (Glass or Plastic)
 Glass carboys used to be very popular in the homebrew world, but their popularity has declined for a number of reasons — safety sitting at the top of that list. For this reason alone, I don’t typically advise anyone purchasing new fermenters to buy glass with the exception being brewers who store their beer long-term, like 6 months+ long-term. If you are going to use glass carboys, a couple things to always keep in mind: Always handle empty glass carboys with two hands, always wear long (preferably thick) pants and closed-toe shoes (boots preferably) when handling, never pick a carboy up by the neck, and never handle while drinking alcohol.
