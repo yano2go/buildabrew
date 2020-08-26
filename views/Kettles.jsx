@@ -22,7 +22,7 @@ Stainless steel, specifically food-grade 304 stainless steel, is durable, corros
 <br />
 Aluminum is not quite as durable as stainless steel, but it weighs less and conducts heat more efficiently. The real drawback to aluminum brew kettles is the metal’s reactivity. <br />
 <br />
-Aluminum reacts with caustic cleaning products, both acids and alkalis, as well as plain old oxygen. It will discolor over time. It can pit, crack, or even produce potentially dangerous gases if it comes into contact with the wrong chemicals. It might also leach into the wort during boiling without proper precautions. <br />
+Aluminum reacts with caustic cleaning products, both acids and alkalis, as well as plain old oxygen. It will discolor over time. It can pit, crack, or even produce potentially dangerous gases if it comes into contact with the wrong chemicals. It might also leach into the wort during boiling without proper precautions. <br /> <img id="kettle" src="https://www.highgravitybrew.com/store/pc/catalog/Brewpots-large.png"></img>
 <br />
 You can create a patina inside an aluminum brew kettle by boiling a little water in it before use. A good pre-boil creates a compound known as alumina (aluminum oxide), which will keep the metal from reacting with the air. It will also help keep it out of your wort, since most recipes aren’t acidic enough to destroy the alumina layer and expose the raw aluminum. <br />
 <br />

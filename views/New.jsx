@@ -6,6 +6,7 @@ class New extends React.Component {
         <Default>
          <div>
            <h1>enter build equipment here</h1>
+           <form>
            <form action="/" method="POST">
              brand: <input type="text" name="brand" />
              <br />
@@ -22,6 +23,7 @@ class New extends React.Component {
              <br />
              <input type="submit" name="built" value="add to build" />
              
+           </form>
            </form>
          </div>
          </Default>

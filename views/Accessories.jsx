@@ -10,7 +10,7 @@ class Accessories extends React.Component {
             <div>
                 <h1>Additional Must Haves!</h1>
                 <h3>
-                For brewing beer you will need additional products to successfully brew. Mandatory items include bottles, caps, a capping device, 5 ounces of sugar, defoamer dropper, gravity reader, an airlock, thermometer and most importantly, sanitizer. <br />
+                For brewing beer you will need additional products to successfully brew. Mandatory items include bottles, caps, a capping device, 5 ounces of sugar, defoamer dropper, gravity reader, an airlock, thermometer and most importantly, sanitizer. <br /> <img id="access" src='https://morebeer-web-8-pavinthewaysoftw.netdna-ssl.com/product_image/morebeer/500x500/29628.png'></img>
                 Non mandatory but highly reccomended items include, a wort chiller, a stiring device, an additional brew bucket, a brush to clean bottles, a hops spider, whirlfloc tablets, fermentation chamber, and a tempurature regulator for the chamber.  
                 </h3>
                 <div>

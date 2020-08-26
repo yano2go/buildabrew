@@ -5,3 +5,41 @@ height:auto;
 body{
      background-color: #E4BE9E  
 }
+
+#myferment{
+     width: 10%;
+     height: 10%;
+}
+#mybrew{
+     width: 10%;
+     height:10%;
+}
+#ingre{
+     width: 35%;
+     float: left;
+     height: 35%;
+}
+#cycle {
+     width: 35%;
+     float: right;
+     height: 35%;
+}
+#access{
+     width: 30%;
+     height: 30%;
+     float: right;
+}
+#fermentation{
+     width: 25%;
+     height: 25%;
+     float: left;
+}
+#fermex{
+     width: 40%;
+     height: 40%;
+     float: right;
+}
+#mashTun{
+     float: right;
+}
+

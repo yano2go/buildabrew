@@ -17,11 +17,11 @@ form a primitive sort of beer, and that is all there is to it. Today it is all a
 Basic Brewing
 While much of the present day commercial brewing process follows traditional lines, the need for product consistency has made some very precise procedures necessary. Brewing processMicro brewery
 It all begins with the malting of the barley. First, the barley grains are steeped for two or three days.
-Steeping is the alternate moistening and drying of the grains to prepare them for germination. The moistened barley is then laid out on the floor at roughly room temperature for between four and six days.
+Steeping is the alternate moistening and drying of the grains to prepare them for germination. The moistened barley is then laid out on the floor at roughly room temperature for between four and six days.  <img id="ingre" src='https://www.beerwulf.com/en-gb/SysSiteAssets/editorials/how-to-brew-beer-nathan/beer-ingredient-uk.jpg'></img> <br />
 This stage is brought to an abrupt halt by raising the temperature to about 65ºC in a process known as 'kilning'. The temperature and duration of the kilning will determine the colour and flavour of the malt and consequently the beer.
 <br /><br />
 Once this is all done, the grains are malted. The malted grains are then mashed. First the grains are crushed before being poured into a large vessel - the mash tun - with hot water at 55ºC. In Belgium a mix of different types of malt is generally used, sometimes using wheat, wheat malt or other cereals. The temperature is gradually raised to about 75ºC to activate the enzymes that will convert the starch into sugars and the Brewing ProcessDoing it manually
-proteins into amino acids. The resultant mash is then filtered through the malt husks that have settled at the bottom of the mash tun.
+proteins into amino acids. The resultant mash is then filtered through the malt husks that have settled at the bottom of the mash tun. <img id="cycle" src='https://previews.123rf.com/images/tashalex/tashalex1508/tashalex150800093/43926031-beer-brewing-process-infographic-in-flat-style-vector-illustration.jpg'></img>  <br />
 This process is known as 'lautering' and the resulting liquid is now known as wort. The residual grain is no longer needed and is generally used for animal feed. The wort goes into a large tank known as 'a copper' where it is boiled with hops or whatever else is being used to flavour the finished beer. At this stage many chemical reactions take place and it’s when the brewer can make important decisions about the finished beer’s flavour, colour and aroma. After boiling for a predetermined period, the wort is then rapidly cooled.
 <br /><br />
 Top or Bottom?

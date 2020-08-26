@@ -20,7 +20,7 @@ class Index extends React.Component {
                         brew.map((Brew)=>{
                             return (
                                 <li>
-                                    <a href={`brew/${Brew._id}`}></a>
+                                    <a href={`brew/${Brew._id}`}></a>  <img id="store" src= "https://i2.wp.com/kegandbarrelhomebrewsupplies.com/wp-content/uploads/2017/11/img_3541.jpg?resize=1180%2C600&ssl=1"></img>
                                     brand: {Brew.brand}<br />
                                     batch size: {Brew.batchSize}<br />
                                     material: {Brew.material}<br />
